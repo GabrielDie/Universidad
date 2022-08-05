@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(90deg, rgba(9,7,51,1) 0%, rgba(136,1,92,1) 48%, rgba(0,156,187,1) 100%);
+}
+
+ul{
+    padding: right;
+    text-align:left;
+    list-style-type: none;
+    display:flex;
+}
+
+ul > li{
+   text-align: right;
+    list-style: none;
+    list-style-type: none;
+    margin: 35;
+    font-size: xx-large;
+
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    color: aqua;
+
+}
+
+.tl{
+    text-align: center;
+    padding: 30;
+    color: rgb(227, 225, 225);
+
+}
+.tex{
+    padding: 60;
+    font-size: x-large;
+    color: rgb(227, 225, 225);
+    
+}
+#tt{
+    text-align: center;   
+}
+#im{
+    padding: 30;
+}
+.ma{
+    width: 450;
+    padding: 30;
+}
+#ct{
+    padding: 30;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+#te{
+    margin: 20;
+    padding: 30;
+    color: white;
+    text-align: center;
+}
+#nom{
+    font-size: xx-large;
+    color: white;
+}
+#nm{
+    height: 30;
+    width: 300;
+    background-color: rgb(232, 228, 221);
+}
+input{
+    font-size: 30px;
+    text-align: center;
+}
+#em{
+    font-size: 30px;
+    background-color:rgb(215, 212, 207);
+}
+#email{
+    font-size: 30px;
+    color: white;
+}
+#geo{
+    margin-left: 400px;
+    
+}
+.imagen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen img{
+    animation-name: slider;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-fill-mode: infinite;
+}
+
+@keyframes slider {
+
+0%{
+    margin-left: 0%;
+}
+15%{
+    margin-left: 0%;
+}
+50%{
+    margin-left: -100;
+}
+
+}
+.dropdown{
+    margin-right: 10px;
+}

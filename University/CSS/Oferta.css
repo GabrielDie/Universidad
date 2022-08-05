@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(90deg, rgba(9,7,51,1) 0%, rgba(136,1,92,1) 48%, rgba(0,156,187,1) 100%);
+}
+
+ul{
+    padding: right;
+    text-align:left;
+    list-style-type: none;
+    display:flex;
+}
+
+ul > li{
+   text-align: right;
+    list-style: none;
+    list-style-type: none;
+    margin: 35;
+    font-size: xx-large;
+
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#tex{
+    color: white;
+}
+#tx{
+    color: white;
+}
+#pa{
+    color: white;
+}
+#par{
+    color: white;
+}
+#lg{
+    color: white;
+}
+#tel{
+    color: white;
+}
+#cr{
+    color: white;
+}
+#cd{
+    color: white;
+}
+#pr{
+    color: white;
+}
+#ig{
+    color: white;
+}
+#pq{
+    color: white;
+}
+#hg{
+    color: white;
+}
